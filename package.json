@@ -1,0 +1,14 @@
+{
+  "name": "bonus-drink",
+  "version": "0.0.0",
+  "description": "bonus-drink",
+  "scripts": {
+    "1": "coffee bonus-drink1.coffee",
+    "2": "coffee bonus-drink2.coffee"
+  },
+  "author": "sato",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  }
+}

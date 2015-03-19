@@ -7,8 +7,7 @@ class BonusDrink
     result += n
     bottle += n
     n = 0
-    if bottle >= @rate
-      result = @_get bottle, result
+    result = @_get bottle, result if bottle >= @rate
     return result
 
 RATE = 3
